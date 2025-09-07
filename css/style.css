@@ -26,7 +26,7 @@ body {
    min-height: calc(var(--vh) * 100);
    overflow: hidden;
    isolation: isolate; /* корректная слоистость */
-   background: url("/img/hero-bg.png") no-repeat center / cover;
+   background: url("../img/hero-bg.png") no-repeat center / cover;
 }
 
 /* Голова «на весь экран» */
@@ -97,10 +97,10 @@ body {
    content: "";
    position: absolute;
    inset: 0;
-   background: url("/img/radial.png") no-repeat center / cover;
+   background: url("../img/radial.png") no-repeat center / cover;
 }
 .hero__overlay {
-   background: url("/img/hero-overlay.png") center / cover no-repeat;
+   background: url("../img/hero-overlay.png") center / cover no-repeat;
    position: absolute;
    width: 100%;
    height: 100%;
